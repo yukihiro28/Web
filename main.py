@@ -1,3 +1,5 @@
+st.html('<script async src="https://www.googletagmanager.com/gtag/js?id=G-8D12RTXDHZ"></script><script>window.dataLayer = window.dataLayer || [];def gtag(){dataLayer.push(arguments);}gtag("js", new Date());gtag("config", "G-8D12RTXDHZ");</script>')
+
 import streamlit as st
 
 st.title("📅 地元イベント情報 ＆ ブログ")
