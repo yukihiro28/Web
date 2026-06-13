@@ -1,8 +1,8 @@
-st.html('<script async src="https://www.googletagmanager.com/gtag/js?id=G-8D12RTXDHZ"></script><script>window.dataLayer = window.dataLayer || [];def gtag(){dataLayer.push(arguments);}gtag("js", new Date());gtag("config", "G-8D12RTXDHZ");</script>')
-
 import streamlit as st
 
-st.title("📅 地元イベント情報 ＆ ブログ")
+st.html('<script async src="https://www.googletagmanager.com/gtag/js?id=G-8D12RTXDHZ"></script><script>window.dataLayer = window.dataLayer || [];def gtag(){dataLayer.push(arguments);}gtag("js", new Date());gtag("config", "G-8D12RTXDHZ");</script>')
+
+st.title("📅 地元イベント情報 & ブログ")
 
 tab1, tab2 = st.tabs(["イベント情報", "ブログ"])
 
@@ -18,4 +18,4 @@ with tab2:
     st.header("管理人ブログ")
     st.markdown("### PythonでWebサイトを作ってみた")
     st.write("2026年6月13日 投稿")
-    st.write("iPadとPythonだけでサイトが作れました。最高。")
+    st.write("iPadとPythonだけでサイトが作れました。")
